@@ -18,7 +18,7 @@ const Topbar = () => {
       <div className="flex gap-2 items-center">
         <img
           src="/swarakita.png"
-          className="size-32 w-32 h-20 "
+          className="size-15 w-15 h-10"
           alt="Swarakita logo"
         />
         <span className="text-lg font-bold font-mono"></span>
