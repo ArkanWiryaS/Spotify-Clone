@@ -21,7 +21,7 @@ const Topbar = () => {
           className="size-15 w-15 h-10"
           alt="Swarakita logo"
         />
-        <span className="text-lg font-bold font-mono"></span>
+        <span className="text-3xl font-light ">Swarakita</span>
       </div>
       <div className="flex items-center gap-4">
         {isAdmin && (
