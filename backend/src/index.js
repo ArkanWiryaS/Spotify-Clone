@@ -29,7 +29,7 @@ initializeSocket(httpServer);
 
 app.use(
   cors({
-    origin: "http://sendok.notchgnas.com",
+    origin: "https://sendok.notchgnas.com",
     credentials: true,
   })
 );
