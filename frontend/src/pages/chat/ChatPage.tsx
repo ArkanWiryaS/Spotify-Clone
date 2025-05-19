@@ -1,4 +1,4 @@
-import Topbar from "@/components/Topbar";
+import Topbar from "@/components/TopbarPart2";
 import { useChatStore } from "@/stores/useChatStore";
 import { useUser } from "@clerk/clerk-react";
 import { useEffect } from "react";
@@ -31,7 +31,7 @@ const ChatPage = () => {
   console.log({ messages });
 
   return (
-    <main className="rounded-tl-[38px] rounded-tr-[38px] rounded-bl-[38px] rounded-br-[38px] overflow-hidden h-full bg-gradient-to-b from-zinc-800 to-zinc-900">
+    <main className="rounded-[] overflow-hidden h-full bg-gradient-to-b from-zinc-800 to-zinc-900">
       <Topbar />
 
       <div className="grid lg:grid-cols-[300px_1fr] grid-cols-[80px_1fr] h-[calc(100vh-180px)]">

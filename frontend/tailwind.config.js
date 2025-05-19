@@ -16,6 +16,10 @@ export default {
           DEFAULT: "hsl(var(--blue))",
           foreground: "hsl(var(--foreground))",
         },
+        purple: {
+          DEFAULT: "hsl(var(--purple))",
+          foreground: "hsl(var(--foreground))",
+        },
         maroon: {
           DEFAULT: "hsl(var(--maroon))",
           foreground: "hsl(var(--foreground))",

@@ -14,7 +14,7 @@ const FriendsActivity = () => {
   }, [fetchUsers, user]);
 
   return (
-    <div className="h-full bg-zinc-900 rounded-tl-[38px] rounded-tr-[38px] rounded-bl-[38px] rounded-br-[38px] flex flex-col">
+    <div className="h-full bg-zinc-900 rounded-tl-[5.2px] rounded-tr-[5.2px] rounded-bl-[5.2px] rounded-br-[5.2px] flex flex-col">
       <div className="p-4 flex justify-between items-center border-b border-zinc-800">
         <div className="flex items-center gap-2">
           <Users className="size-5 shrink-0" />

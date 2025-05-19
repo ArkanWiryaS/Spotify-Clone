@@ -21,14 +21,15 @@ const LeftSidebar = () => {
     <div className="h-full flex flex-col gap-2">
       {/* Navigation menu */}
 
-      <div className="rounded-tl-[38px] rounded-tr-[38px] bg-zinc-900 p-4">
+      <div className="rounded-[5.2px]  bg-zinc-900 p-4">
         <div className="space-y-2">
           <Link
             to={"/"}
             className={cn(
               buttonVariants({
                 variant: "ghost",
-                className: "w-full justify-start text-white hover:bg-zinc-800",
+                className:
+                  "w-full justify-start text-white hover:bg-zinc-800 rounded-tr-[5.2px] rounded-tl-[5.2px]",
               })
             )}
           >
@@ -55,7 +56,7 @@ const LeftSidebar = () => {
       </div>
 
       {/* Library section */}
-      <div className="flex-1 rounded-bl-[38px] rounded-br-[38px] bg-zinc-900 p-4">
+      <div className="flex-1 rounded-bl-[5.2px] rounded-br-[5.2px] bg-zinc-900 p-4">
         <div className="flex items-center justify-between mb-4">
           <div className="flex items-center text-white px-2">
             <Library className="size-5 mr-2" />

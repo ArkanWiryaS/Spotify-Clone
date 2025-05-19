@@ -12,16 +12,13 @@ const Topbar = () => {
 
   return (
     <div
-      className="flex items-center justify-between p-4 sticky top-
+      className="flex items-center justify-between p-4 sticky top-0 bg-zinc-900/75 
+      backdrop-blur-md z-10 
     "
     >
       <div className="flex gap-2 items-center">
-        <img
-          src="/swarakita.png"
-          className="size-32 w-32 h-20 "
-          alt="Swarakita logo"
-        />
-        <span className="text-lg font-bold font-mono"></span>
+        <img src="/swarakita.png" className="size-10" alt="Swarakita logo" />
+        Swarakita
       </div>
       <div className="flex items-center gap-4">
         {isAdmin && (

@@ -37,7 +37,10 @@ const HomePage = () => {
   }, [initializeQueue, madeForYouSongs, trendingSongs, featuredSongs]);
 
   return (
-    <main className="rounded-tl-[38px] rounded-tr-[38px] rounded-bl-[38px] rounded-br-[38px] overflow-hidden h-full bg-gradient-to-b from-zinc-800 to-zinc-900">
+    <main
+      className="rounded-tl-[5.2px] rounded-tr-[5.2px] rounded-bl-[5.2px] rounded-br-[5.2px] overflow-hidden h-full bg-gradient-to-b from-[#5038a0]/80 via-zinc-900/80
+					 to-zinc-900"
+    >
       <Topbar />
       <ScrollArea className="h-[calc(100vh-180px)]">
         <div className="p-4 sm:p-6">

@@ -27,10 +27,10 @@ const SectionGrid = ({ songs, title, isLoading }: SectionGridProps) => {
         {songs.map((song) => (
           <div
             key={song._id}
-            className="bg-zinc-800/40 p-4 rounded-[38px] hover:bg-zinc-700/40 transition-all group cursor-pointer"
+            className="bg-zinc-800/40 p-4 rounded-[5.2px] hover:bg-zinc-700/40 transition-all group cursor-pointer"
           >
             <div className="relative mb-4">
-              <div className="aspect-square rounded-[38px] shadow-lg overflow-hidden">
+              <div className="aspect-square rounded-[5.2px] shadow-lg overflow-hidden">
                 <img
                   src={song.imageUrl}
                   alt={song.title}

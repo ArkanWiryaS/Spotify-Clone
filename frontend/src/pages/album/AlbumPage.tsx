@@ -50,7 +50,7 @@ const AlbumPage = () => {
           {/* bg gradient */}
           <div
             className="absolute inset-0 bg-gradient-to-b from-[#5038a0]/80 via-zinc-900/80
-					 to-zinc-900 pointer-events-none rounded-[38px]"
+					 to-zinc-900 pointer-events-none rounded-[5.2px]"
             aria-hidden="true"
           />
 
@@ -60,7 +60,7 @@ const AlbumPage = () => {
               <img
                 src={currentAlbum?.imageUrl}
                 alt={currentAlbum?.title}
-                className="w-[240px] h-[240px] shadow-xl rounded-[38px]"
+                className="w-[240px] h-[240px] shadow-xl rounded-[5.2px]"
               />
               <div className="flex flex-col justify-end">
                 <p className="text-sm font-medium">Album</p>
@@ -82,16 +82,16 @@ const AlbumPage = () => {
               <Button
                 onClick={handlePlayAlbum}
                 size="icon"
-                className="w-14 h-14 rounded-full bg-green-500 hover:bg-green-400 
+                className="w-14 h-14 rounded-full bg-purple-500 hover:bg-purple-400 
                 hover:scale-105 transition-all"
               >
                 {isPlaying &&
                 currentAlbum?.songs.some(
                   (song) => song._id === currentSong?._id
                 ) ? (
-                  <Pause className="h-7 w-7 text-black" />
+                  <Pause className="h-7 w-7 text-white fill-white" />
                 ) : (
-                  <Play className="h-7 w-7 text-black" />
+                  <Play className="h-7 w-7 text-white fill-white" />
                 )}
               </Button>
             </div>
