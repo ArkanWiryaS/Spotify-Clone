@@ -108,14 +108,14 @@ export const PlaybackControls = () => {
 
             <Button
               size="icon"
-              className="bg-white hover:bg-white/80 text-black rounded-full h-8 w-8"
+              className="bg-white hover:bg-white/80 text-black rounded-full h-8 w-8 border-2 border-white fill-black"
               onClick={togglePlay}
               disabled={!currentSong}
             >
               {isPlaying ? (
-                <Pause className="h-5 w-5" />
+                <Pause className="h-5 w-5 fill-black" />
               ) : (
-                <Play className="h-5 w-5" />
+                <Play className="h-5 w-5 fill-black" />
               )}
             </Button>
             <Button
