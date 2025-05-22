@@ -49,7 +49,7 @@ const AlbumPage = () => {
         <div className="-full">
           {/* bg gradient */}
           <div
-            className="absolute inset-0 bg-gradient-to-b from-[#5038a0]/80 via-zinc-900/80
+            className="absolute inset-0 bg-gradient-to-b from-[#1c96c5]/80 via-zinc-900/80
 					 to-zinc-900 pointer-events-none rounded-[5.2px]"
             aria-hidden="true"
           />
@@ -82,7 +82,7 @@ const AlbumPage = () => {
               <Button
                 onClick={handlePlayAlbum}
                 size="icon"
-                className="w-14 h-14 rounded-full bg-purple-500 hover:bg-purple-400 
+                className="w-14 h-14 rounded-full bg-blue-500 hover:bg-blue-400 
                 hover:scale-105 transition-all"
               >
                 {isPlaying &&

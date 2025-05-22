@@ -17,7 +17,7 @@ const FriendsActivity = () => {
     <div className="h-full bg-zinc-900 rounded-tl-[5.2px] rounded-tr-[5.2px] rounded-bl-[5.2px] rounded-br-[5.2px] flex flex-col">
       <div className="p-4 flex justify-between items-center border-b border-zinc-800">
         <div className="flex items-center gap-2">
-          <Users className="size-5 shrink-0" />
+          <Users className="size-6 shrink-0 text-[#33b3a6] " />
           <h2 className="font-semibold">What they're listening to</h2>
         </div>
       </div>
@@ -43,7 +43,7 @@ const FriendsActivity = () => {
                     </Avatar>
                     <div
                       className={`absolute bottom-0 right-0 h-3 w-3 rounded-full border-2 border-zinc-900 
-												${onlineUsers.has(user.clerkId) ? "bg-green-500" : "bg-zinc-500"}
+												${onlineUsers.has(user.clerkId) ? "bg-green-500" : "bg-[#40e0d0]"}
 												`}
                       aria-hidden="true"
                     />
@@ -69,7 +69,7 @@ const FriendsActivity = () => {
                         </div>
                       </div>
                     ) : (
-                      <div className="mt-1 text-xs text-zinc-400">Idle</div>
+                      <div className="mt-1 text-xs text-[#33b3a6]">Idle</div>
                     )}
                   </div>
                 </div>

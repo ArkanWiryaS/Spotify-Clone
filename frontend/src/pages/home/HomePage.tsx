@@ -38,7 +38,7 @@ const HomePage = () => {
 
   return (
     <main
-      className="rounded-tl-[5.2px] rounded-tr-[5.2px] rounded-bl-[5.2px] rounded-br-[5.2px] overflow-hidden h-full bg-gradient-to-b from-[#5038a0]/80 via-zinc-900/80
+      className="rounded-tl-[5.2px] rounded-tr-[5.2px] rounded-bl-[5.2px] rounded-br-[5.2px] overflow-hidden h-full bg-gradient-to-b from-[#26867c] via-zinc-900/80
 					 to-zinc-900"
     >
       <Topbar />

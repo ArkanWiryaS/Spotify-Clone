@@ -88,13 +88,7 @@ export const PlaybackControls = () => {
         {/* player controls*/}
         <div className="flex flex-col items-center gap-2 flex-1 max-w-full sm:max-w-[45%]">
           <div className="flex items-center gap-4 sm:gap-6">
-            <Button
-              size="icon"
-              variant="ghost"
-              className="hidden sm:inline-flex hover:text-white text-zinc-400"
-            >
-              <Shuffle className="h-4 w-4" />
-            </Button>
+      
 
             <Button
               size="icon"
@@ -127,13 +121,7 @@ export const PlaybackControls = () => {
             >
               <SkipForward className="h-4 w-4" />
             </Button>
-            <Button
-              size="icon"
-              variant="ghost"
-              className="hidden sm:inline-flex hover:text-white text-zinc-400"
-            >
-              <Repeat className="h-4 w-4" />
-            </Button>
+            
           </div>
 
           <div className="hidden sm:flex items-center gap-2 w-full">

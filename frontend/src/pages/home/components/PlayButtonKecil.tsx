@@ -17,13 +17,13 @@ const PlayButton = ({ song }: { song: Song }) => {
     <Button
       size={"icon"}
       onClick={handlePlay}
-      className={`absolute bottom-5 right-2 bg-[#39c9bb] hover:bg-[#39c9bb]/80 hover:scale-105 transition-all 
+      className={`absolute bottom-3 right-2 bg-[#5a006c]/100 hover:bg-[#5a006c]/40 hover:scale-105 transition-all 
 				 text-white opacity-0 translate-y-2 group-hover:translate-y-0 rounded-[5.2px] ${
            isCurrentSong ? "opacity-100" : "opacity-0 group-hover:opacity-100"
          }`}
     >
       {isCurrentSong && isPlaying ? (
-        <Pause className="size-5 text-white fill-white" />
+        <Pause className="size-5 text-black fill-white" />
       ) : (
         <Play className="size-5 text-white fill-white" />
       )}

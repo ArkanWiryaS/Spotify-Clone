@@ -29,7 +29,7 @@ const LeftSidebar = () => {
               buttonVariants({
                 variant: "ghost",
                 className:
-                  "w-full justify-start text-white hover:bg-zinc-800 rounded-tr-[5.2px] rounded-tl-[5.2px]",
+                  "w-full justify-start text-white hover:bg-zinc-800 rounded-tr-[5.2px] rounded-tl-[5.2px] hover:text-[#39c9bb]",
               })
             )}
           >
@@ -44,12 +44,12 @@ const LeftSidebar = () => {
                 buttonVariants({
                   variant: "ghost",
                   className:
-                    "w-full justify-start text-white hover:bg-zinc-800",
+                    "w-full justify-start text-white hover:bg-zinc-800 hover:text-[#39c9bb]",
                 })
               )}
             >
               <MessageCircle className="mr-2 size-5" />
-              <span className="hidden md:inline">Messages</span>
+              <span className="hidden md:inline ">Messages</span>
             </Link>
           </SignedIn>
         </div>
@@ -59,7 +59,7 @@ const LeftSidebar = () => {
       <div className="flex-1 rounded-bl-[5.2px] rounded-br-[5.2px] bg-zinc-900 p-4">
         <div className="flex items-center justify-between mb-4">
           <div className="flex items-center text-white px-2">
-            <Library className="size-5 mr-2" />
+            <Library className="size-5 mr-2 text-[#39c9bb]" />
             <span className="hidden md:inline">Playlists</span>
           </div>
         </div>
